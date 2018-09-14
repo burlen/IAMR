@@ -13,8 +13,9 @@ PRECISION   = DOUBLE
 DIM         = 2
 COMP        = gnu
 DEBUG       = TRUE
-USE_MPI     = FALSE
+USE_MPI     = TRUE
 USE_OMP     = FALSE
+USE_SENSEI_INSITU = TRUE
 
 # This allows GetForce to call a Fortran routine
 #DEFINES += -DGENGETFORCE
